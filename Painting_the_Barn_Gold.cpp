@@ -74,7 +74,7 @@ int main(){
             }
             int bottom_sum=0;
             int right_sum=0;
-            for(z=199;z>0;z--){
+            for(z=199;z>=0;z--){
                 soma_analisada=bottom_sum+sub_soma(z,i,z,j);
                 bottom_best[z]=max(bottom_best[z], bottom_sum=max(0,soma_analisada));
                 soma_analisada=right_sum+sub_soma(i,z,j,z);
